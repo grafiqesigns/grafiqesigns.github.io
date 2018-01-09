@@ -1,0 +1,752 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Grafiqe Signs</title>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+
+	<link rel="stylesheet" href="css/fonts/stylesheet.css" />
+	<link rel="stylesheet" href="css/fonts/fonts.css" />
+	<link rel="stylesheet" href="css/animat/animate.min.css" />
+	<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css" />
+	<link rel="stylesheet" href="css/themes/default/default.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="css/owl-carousel/owl.transitions.css">
+
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+	<style>
+
+
+	.navbar-nav > li > a {padding-top:30px !important;
+		 padding-bottom:30px !important;
+		 color:#c78830;
+		 text-transform: uppercase;
+	 }
+	 .navbar-nav > li > .dropdown > button {padding-top:30px !important;
+ 		 padding-bottom:30px !important;
+		 padding-left: 14px;
+ 		 color:#c78830;
+ 		 text-transform: uppercase;
+ 	 }
+	.navbar-nav > li > a:hover{
+		background-color: inherit;
+		color: #f32a20;
+	}
+	.navbar-nav > li > a:focus{
+		background-color: inherit;
+	}
+
+	.navbar {min-height:80px !important;margin-bottom: 100px;background-color: #fcfbe3}
+	.navbar-brand{padding-top:14px !important;margin-bottom: 20px;max-height: 24px;  }
+	.no{ margin-top: 2%;}
+	.navbar-brand img{ max-height: 50px;}
+
+	.navbar-fixed-top{
+		background-color: #fcfbe3;
+		height: 90px;
+	}
+	.navbar-header button{
+		background-color: #c78836;
+		margin-top:20px;
+	}
+	.navbar-header span{
+		background-color: black;
+	}
+	/*.dropbtn {
+		text-transform: uppercase;
+		font-size: 14px;
+	    color:#c78830;
+	    border: none;
+	    cursor: pointer;
+			margin:  15px 14px 14px 9px;
+			padding-top: 16px;
+	}*/
+	.dropdown {
+	    position: relative;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    /*width: 150px;;*/
+	    z-index: 1;
+	}
+
+	.dropdown-content a {
+	    color: #c78830;
+	    /*padding: 12px 16px;*/
+	    text-decoration: none;
+	    display: block;
+	}
+
+	.dropdown-content a:hover {color:#e84c3d;}
+
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+	    color:#e84c3d;
+	}
+	.dropdown-submenu {
+	    position: relative;
+			background-color: #fcfbe3;
+
+	}
+
+	.dropdown-submenu .dropdown-menu {
+		display: none;
+		position: absolute;
+			/*padding: 12px 0 12px;*/
+		z-index: 1;
+			left:92%;
+			top:-1;
+			border: none;
+			background-color: #fcfbe3;
+	}
+	.dropdown-submenu:hover .dropdown-menu{
+		display: block;
+		overflow: auto;
+
+	}
+	.dropdown-submenu .dropdown-menu a {
+		color: #c78830;
+		text-decoration: none;
+		display: block;
+	}
+	.dropdown-submenu .dropdown-menu a:hover{
+		color:#e84c3d;
+		background-color: #fcfbe3;
+
+	}
+	.dropdown-submenu span{
+		float: right;
+		margin-top: 3%;
+		margin-right: 10px;
+	}
+</style>
+</head>
+<body>
+
+	<!-- <div class='preloader'><div class='loaded'>&nbsp;</div></div> -->
+
+	<header id="home" class="header">
+		<div class="main_menu_bg navbar-fixed-top" >
+			<div class="container" >
+				<div class="row">
+					<div class="nave_menu" >
+					<nav class="navbar" >
+					  <div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header" >
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <a class="navbar-brand" href="index.html">
+							<div class="logo">
+								<img src="images/justlogo.png"  alt="" />
+							</div>
+						  </a>
+							<a class="navbar-brand no" href="index.html">
+				        <img src="images/grafiqe.png" width="160" height="40px" alt="">
+				      </a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+
+						  <ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#abouts">ABOUT</a></li>
+							<li><div class="dropdown">
+								<button href="#abouts" class="dropbtn">services</button>
+  										<div class="dropdown-content">
+												<ul class="dropdown">
+												<li class="dropdown-submenu">
+					 									<a  href="#">Indoor Signage<span class="fa fa-caret-right" aria-hidden="true"></span></a>
+					 												<ul class="dropdown-menu">
+<li><a href="indoor.html">Braille Signs</a></li>
+<li><a href="indoor.html">3D Canvas Prints</a></li>
+<li><a href="indoor.html">Digital Signage</a></li>
+<li><a href="indoor.html">Directory Boards</a></li>
+<li><a href="indoor.html">Disabled Signs</a></li>
+<li><a href="indoor.html">L.E.D. Signs</a></li>
+<li><a href="indoor2.html">Light Boxes</a></li>
+<li><a href="indoor2.html">Menu Boards</a></li>
+<li><a href="indoor2.html">Metal Signs</a></li>
+<li><a href="indoor2.html">Reception Signs</a></li>
+<li><a href="indoor2.html">Retractable Banners</a></li>
+<li><a href="indoor2.html">Safety Signs</a></li>
+<li><a href="indoor3.html">Vinyl Letters</a></li>
+<li><a href="indoor3.html">Wall Prints</a></li>
+<li><a href="indoor3.html">Window Decals</a></li>
+<li><a href="indoor3.html">Window Frosting</a></li>
+							 												</ul>
+				 								</li>
+												<li class="dropdown-submenu">
+					 									<a  href="#">Outdoor Signage<span class="fa fa-caret-right" aria-hidden="true"></span></a>
+					 												<ul class="dropdown-menu">
+																		<li><a href="indoor3.html">3D Letters</a></li>
+<li><a href="indoor3.html">A - Frame</a></li>
+<li><a href="indoor3.html">Asphalt Signs</a></li>
+<li><a href="indoor3.html">Building Signs</a></li>
+<li><a href="indoor3.html">Channel Letters</a></li>
+<li><a href="indoor3.html">Cut out letters</a></li>
+<li><a href="indoor3.html">Flags</a></li>
+<li><a href="indoor3.html">Illuminated Letters</a></li>
+<li><a href="indoor3.html">L.E.D. Signs</a></li>
+<li><a href="indoor3.html">Light boxes</a></li>
+<li><a href="indoor3.html">Neon signs</a></li>
+<li><a href="indoor3.html">Outdoor Banner</a></li>
+<li><a href="indoor3.html">Parking Signs</a></li>
+<li><a href="indoor3.html">Posters</a></li>
+<li><a href="indoor3.html">Real Estate Signs</a></li>
+<li><a href="indoor3.html">Safety Signs</a></li>
+<li><a href="indoor3.html">Stickers</a></li>
+<li><a href="indoor3.html">Street Barriers</a></li>
+<li><a href="indoor3.html">Teardrop Flags</a></li>
+<li><a href="indoor3.html">Traffic Signs</a></li>
+<li><a href="indoor3.html">Vinyl Banners</a></li>
+<li><a href="indoor3.html">Window Frosting</a></li>
+
+					 												</ul>
+				 								</li>
+												</ul>
+
+  									</div>
+								</div>
+							</li>
+
+							<li><a href="#team">Team</a></li>
+							<li><a href="#contact">Contact</a></li>
+
+						  </ul>
+						</div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+					</div>
+				</div><!--End of row -->
+
+			</div><!--End of container -->
+
+		</div>
+	</header> <!--End of header -->
+
+
+
+	<section id="banner" class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="main_banner_area text-center">
+					<div class="col-md-12 col-sm-12">
+						<div class="single_banner_text wow zoomIn" data-wow-duration="1s">
+							<h2>WELCOME TO GRAFIQE SIGNS</h2>
+							<h5>A SIGN FOR YOUR  BUSINESS</h5>
+
+							<div class="separetor"></div>
+						</div>
+					</div>
+
+
+					<div class="scrolldown">
+						<a href="#abouts" class="scroll_btn"></a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section><!-- End of Banner Section -->
+
+
+	<section id="abouts" class="abouts">
+		<div class="container">
+			<div class="row">
+				<div class="main_abouts_content">
+					<div class="col-md-6 col-sm-6 col-xs-12" style="text-align:justify;margin-bottom:20px;" >
+						<div class="single_abouts wow fadeInLeft collapse-group" data-wow-duration="1s">
+							<h2>ABOUT GRAFIQESIGNS</h2>
+							<div class="separetor2"></div>
+							<p>We take pride in having the privilege of associating ourselves with prestigious clients by providing them a unique blend of creativity and innovation. Our motivated staff work to bring total quality, in time and at competitive rates .We commit ourselves in creating impactful ways to reflect your image and your massages to your clients.
+							</p>
+							<span class="collapse" id="aboutdetails">
+								<p>Grafiqe signs is a solution to all your retail branding need. We have all in house facilities which makes us very cost effective with quality and timely deliveries. We cater to all our customers needs whether its large format printing, shop in shop or kiosks working on wide array of materials. We have an experienced friendly customer service staff along with great designers who tend to go to any extent to satisfy our customer’s requirement from a thought till the reality with having the ability to give importance to our customers requirement even if the quantity is 1 or 100 or even more..
+								</p>
+							</span>
+
+							<a  data-toggle="collapse" data-target="#aboutdetails" class="btn btn-lg" >MORE</a>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_abouts wow fadeInRight" data-wow-duration="1s">
+							<img src="images/ab.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="wedo">
+		<div class="container">
+			<div class="row">
+				<div class="head_title text-center wow fadeIn" data-wow-duration="1.5s">
+					<h2>WHAT WE DO</h2>
+					<div class="separetor"></div>
+					<p>We provide best in class services to your businesses in branding through signage and branding.
+					 </p>
+				</div>
+				<div class="wedo_content_area">
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+
+						<div class="single_wedo wow fadeIn" data-wow-duration="1s">
+							<div class="single_left_icon">
+								<a href="indoor.html"><i class="fa fa-star"></i></a>
+							</div>
+
+							<div class="single_right_text">
+								<h4>INDOOR SIGNAGE</h4>
+								<div class="separetor2"></div>
+								<p>Lorem Ipsum is simply dummy text thprinting andthe industry's standard dummy text lorem Ipsum is simply dummy</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_wedo wow fadeIn" data-wow-duration="1s">
+							<div class="single_left_icon">
+								<a href="outdoor.html"><i class="fa fa-star"></i></a>
+							</div>
+
+							<div class="single_right_text">
+								<h4>OUTDOOR SIGNAGE</h4>
+								<div class="separetor2"></div>
+								<p>Lorem Ipsum is simply dummy text thprinting andthe industry's standard dummy text lorem Ipsum is simply dummy</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="counterUp" class="counterUp">
+		<div class="counter_overlay">
+			<div class="container">
+				<div class="row">
+					<div class="main_counter_content">
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="1s">
+								<h4><i class="fa fa-star"></i><span class="static-counter">158</span></h4>
+								<p>PROJECT COMPLETED</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="1.8s">
+								<h4><i class="fa fa-star"></i><span class="static-counter">580</span></h4>
+								<p>PROJECT COMPLETED</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="2.2s">
+								<h4><i class="fa fa-star"></i><span class="static-counter">1500</span></h4>
+								<p>PROJECT COMPLETED</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="sinle_counter wow fadeIn" data-wow-duration="2.8s">
+								<h4><i class="fa fa-star"></i><span class="static-counter">1000</span></h4>
+								<p>PROJECT COMPLETED</p>
+								<div class="separetorwhite"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="steps" class="steps">
+		<div class="container">
+			<div class="row">
+				<div class="head_title text-center wow fadeIn" data-wow-duration="1.5s">
+					<h2>THREE SIMPLE STEPS</h2>
+					<div class="separetor"></div>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry been the industry's standard dummy text </p>
+				</div>
+				<div class="main_steps_content text-center">
+					<div class="col-md-3">
+						<div class="single_steps wow fadeIn" data-wow-duration="1s">
+							<a href=""><i class="fa fa-paint-brush"></i></a>
+							<h4>DESIGNING</h4>
+							<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p> -->
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="single_steps wow fadeIn" data-wow-duration="1.8s">
+							<a href=""><i class="fa fa-bar-chart"></i></a>
+							<h4>FABRICATION</h4>
+							<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p> -->
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="single_steps wow fadeIn" data-wow-duration="2.8s">
+							<a href=""><i class="fa fa-building"></i></a>
+							<h4>INSTALLATION</h4>
+							<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p> -->
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="single_steps wow fadeIn" data-wow-duration="2.8s">
+							<a href=""><i class="fa fa-pie-chart"></i></a>
+							<h4>AFTER SALES SERVICE</h4>
+							<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="featured" class="featured">
+		<div class="container">
+			<div class="row">
+				<div class="head_title text-center wow flipInX" data-wow-duration="1s">
+					<h2>OUR FEATURED WORK</h2>
+					<div class="separetor"></div>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry been the industry's standard dummy text</p>
+				</div>
+			</div>
+		</div>
+		<div class="main_featured_content">
+			<div class="col-md-4 col-md-offset-4 single_featured_area centered">
+				<div class="single_featured wow fadeIn" data-wow-duration=".5s">
+					<img src="images/londonshakes.jpg" alt="" />
+					<div class="featured_overlay">
+						<div class="overlay_content">
+							<a href="" class="btn btn-white">VIEW DEATIL</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+	<section id="service" class="service">
+		<div class="container">
+			<div class="row">
+				<div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+					<h2>OUR BEST SERVICE</h2>
+					<div class="separetor"></div>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry been the industry's standard dummy text</p>
+				</div>
+			</div>
+		</div>
+		<div class="main_service_content">
+			<div class="single_service_area single_service_area_one wow fadeIn" data-wow-duration="1.5s">
+				<div class="col-md-6 col-md-offset-6 col-sm-5 col-sm-offset-7">
+					<div class="single_service">
+						<h4>AWESOME TITLE HERE</h4>
+						<div class="separetorwhite"></div>
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+					</div>
+				</div>
+			</div>
+			<div class="single_service_area single_service_area_two wow fadeIn" data-wow-duration="2.5s">
+				<div class="col-md-6 col-sm-5 text-right">
+					<div class="single_service">
+						<h4>AWESOME TITLE HERE</h4>
+						<div class="separetorwhite floatright"></div>
+						<p class="service_P">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+					</div>
+				</div>
+			</div>
+			<div class="single_service_area single_service_area_three wow fadeIn" data-wow-duration="3.5s">
+				<div class="col-md-6 col-md-offset-6 col-sm-5 col-sm-offset-7">
+					<div class="single_service">
+						<h4>AWESOME TITLE HERE</h4>
+						<div class="separetorwhite"></div>
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+
+	<section id="business" class="business">
+		<div class="overlay_business">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="main_business_content text-center wow fadeIn" data-wow-duration="2s">
+							<h2>CREATE YOUR BUSINESS SIGN WITH OUR IDEAS!</h2>
+							<h4>GET READY TO STAND OUT</h4>
+							<a href="" class="btn pink-btn">KEEP EXPLORING</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="team" class="team">
+		<div class="container">
+			<div class="row">
+				<div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+					<h2>MEET OUR CREW</h2>
+					<div class="separetor"></div>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry been the industry's standard dummy text</p>
+				</div>
+
+				<div class="main_team_content text-center">
+					<div class="row">
+
+					<div class="col-md-3 col-md-offset-3">
+						<div class="single_team wow fadeIn" data-wow-duration="1.5s">
+
+
+							<div class="single_team_img" >
+								<img src="images/tm1.jpg" alt="" />
+								<div class="single_team_overlay text-center">
+									<p>He holds a Business Management degree and diploma in interior design from Hamstech(JNAFAU)
+										 and extensive experience in the field of signage, advertising and marketing.</p>
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<div class="single_team_name">
+								<h4>MOHD MOHSEEN</h4>
+								<p>CEO</p>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="single_team wow fadeIn" data-wow-duration="2s">
+							<div class="single_team_img">
+								<img src="images/tm2.jpg" alt="" />
+								<div class="single_team_overlay text-center">
+									<p>He is brilliant with his design sense  and an extensive experience
+										in the field of signage, advertising and marketing.
+										 His experience with advertising agencies and design firms has given
+										 him just the right amount of exposure.</p>
+									<a href=""><i class="fa fa-facebook"></i></a>
+									<a href=""><i class="fa fa-linkedin"></i></a>
+								</div>
+							</div>
+							<div class="single_team_name">
+								<h4>D. HARISH</h4>
+								<p>LEAD OF DESIGN</p>
+							</div>
+						</div>
+				</div>
+			</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<!-- <section id="blog" class="blog sections"style="background-color:#ebebeb" >
+		<div class="container" >
+			<div class="row">
+				<div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+					<h2>LATTEST BLOG</h2>
+					<div class="separetor"></div>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry been the industry's standard dummy text</p>
+				</div>
+				<div class="main_blog">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_blog wow fadeInLeft" data-wow-duration="0.5s">
+							<div class="single_blog_img">
+								<img src="images/blog1.jpg" alt="" />
+							</div>
+
+							<div class="single_blog_overlay">
+								<h4>MOHD MOHSEEN</h4>
+								<p>CEO</p>
+								<div class="separetorwhite"></div>
+
+								<p>He holds a Business Management degree and diploma in interior design from Hamstech(JNAFAU)
+									 and extensive experience in the field of signage, advertising and marketing.
+									  </p>
+								<a href="" class="date_data"><i class="fa fa-gift"></i>12 th September, 2015</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="single_blog wow fadeInRight" data-wow-duration="0.5s">
+							<div class="single_blog_img">
+								<img src="images/blog1.jpg" alt="" />
+							</div>
+
+							<div class="single_blog_overlay">
+								<h4>D. HARISH</h4>
+								<p>CEO</p>
+								<div class="separetorwhite"></div>
+
+								<p>D . Harish  is brilliant with his design sense  and an extensive experience
+									in the field of signage, advertising and marketing.
+									 His experience with advertising agencies and design firms has given
+									 him just the right amount of exposure.</p>
+								<a href="" class="date_data"><i class="fa fa-gift"></i>12 th September, 2015</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+<hr>
+
+		<!-- Contact form -->
+		<section id="contact" class="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="head_title text-center wow zoomIn" data-wow-duration="0.5s">
+							<h2>Get In Touch With Us</h2>
+							<div class="separetor"></div>
+							<p>We are here to help. Want to learn more about our services? Please get in touch, we'd love to hear from you!</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+						<div class="col-md-12  centered">
+							<div class="single_message_right wow fadeIn"  data-wow-duration="1s">
+								<div class="container">
+
+								 <div class="row col-md-offset-3">
+									<div class="col-md-1 ">
+										<i class="fa fa-map-marker fa-fw"></i>
+									</div>
+									<div class="col-md-11">
+										<p>5-1-100, Maheshwar Complex,Besides Bus Stop</p>
+										<p> Kukatpally,Hyderabad-500072.</p>
+									</div>
+								</div>
+								<br>
+
+								<div class="row col-md-offset-3">
+								 <div class="col-md-1">
+									 <i class="fa fa-envelope-o fa-fw"></i>
+								 </div>
+								 <div class="col-md-11">
+										<p> mohseen@grafiqesigns.com</p>
+								 </div>
+							 </div>
+							 <br>
+							 <div class="row col-md-offset-3">
+								<div class="col-md-1">
+									<i class="fa fa-phone fa-fw"></i>
+								</div>
+								<div class="col-md-11">
+										<p>Phone:  +62 202 555 0117</p>
+								</div>
+							</div>
+
+							</div>
+
+							</div>
+						</div>
+					 <!-- End of messsage contant-->
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="main_footer text-center wow zoomIn" data-wow-duration="1s">
+						<p>Made with <i class="fa fa-heart"></i> by <a href="">Tecnsec</a>2017. All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	<!-- STRAT SCROLL TO TOP -->
+
+	<div class="scrollup">
+		<a href="#"><i class="fa fa-chevron-up"></i></a>
+	</div>
+
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery/jquery.js"></script>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+
+	<script type="text/javascript" src="js/nivo-lightbox/nivo-lightbox.min.js"></script>
+
+	<script type="text/javascript" src="js/owl-carousel/owl.carousel.min.js"></script>
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery-easing/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/wow/wow.min.js"></script>
+	<!--<script type="text/javascript" src="js/counterup/counterup.min.js"></script>-->
+
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>-->
+	<!--<script type="text/javascript" src="js/counterup/jquery.counterup.min.js"></script>-->
+
+
+	<script type="text/javascript" src="js/isotop/isotope.min.js"></script>
+	<script type="text/javascript" src="js/isotop/isotop.function.js"></script>
+
+	<script type="text/javascript" src="js/masonry/masonry.min.js"></script>
+
+	<script type="text/javascript" src="js/mixitup/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/masonry/masonry.pkgd.min.js"></script>
+	<script type="text/javascript">
+	$(".single_wedo").click(function() {
+window.location = $(this).find("a").attr("href");
+return false;
+});
+	</script>
+</body>
+</html>
