@@ -1,4 +1,4 @@
-#!/home/irfan/workspace/finalgrafiqe/env/bin/python
+#!/home/irfan/workspace/finalgrafiqe/generate/env/bin/python
 
 # $Id: rstpep2html.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: David Goodger <goodger@python.org>

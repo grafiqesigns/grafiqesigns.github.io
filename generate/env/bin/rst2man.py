@@ -1,4 +1,4 @@
-#!/home/irfan/workspace/finalgrafiqe/env/bin/python
+#!/home/irfan/workspace/finalgrafiqe/generate/env/bin/python
 
 # Author: 
 # Contact: grubert@users.sf.net

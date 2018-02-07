@@ -1,4 +1,4 @@
-#!/home/irfan/workspace/finalgrafiqe/env/bin/python
+#!/home/irfan/workspace/finalgrafiqe/generate/env/bin/python
 
 # $Id: rst2xetex.py 7847 2015-03-17 17:30:47Z milde $
 # Author: Guenter Milde
