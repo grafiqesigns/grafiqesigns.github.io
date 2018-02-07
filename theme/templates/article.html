@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+
+
+    {% block css %}
+    <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/owl.carousel.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/owl.theme.css" rel="stylesheet">
+    {% endblock%}
+{% block content %}
+        <!-- *** LOGIN MODAL END *** -->
+
+        <div id="heading-breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h1>{{article.title}}</h1>
+                    </div>
+                    <div class="col-md-5">
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">Home</a>
+                            </li>
+                            <li><a href="portfolio-2.html">Portfolio</a>
+                            </li>
+                            <li>{{article.title}}</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+<!--
+
+                        <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies
+                            mi vitae est. Mauris placerat eleifend leo.</p> -->
+                    </div>
+                </div>
+                <div class="row portfolio-project">
+
+                    <section>
+
+                        <div class="col-sm-10">
+                            <div class="project owl-carousel">
+                                {% set k= (article.tags|count) %}
+
+                                    {% for tag in article.tags %}
+                                        <div class="item">
+                                                <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{tag}}"  class="img-responsive" alt="">
+                                            </div>
+                                    {% endfor %}
+                                </div>
+
+                                <!-- {% set k= (article.tags|count) %}
+                                {% if k==2 %}
+                                <div class="row">
+                                    {% for tag in article.tags %}
+                                        <div class="col-sm-{{12/k}}">
+                                                <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{tag}}"  class="img-responsive" alt="">
+                                            </div>
+                                    {% endfor %}
+                                </div>
+                                {% endif %} -->
+
+
+                                {% if k==1 %}
+                                {% for tag in article.tags %}
+                                <div class="col-sm-{{12/k}}">
+
+                                    <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/indoor/{{tag}}"  class="img-responsive" alt="">
+                                </div>
+                                {% endfor %}
+
+                                {% endif %}
+
+
+
+                        </div>
+
+                        <!-- <div class="col-sm-4">
+                            <div class="project-more">
+                                <h4>Client</h4>
+                                <p>Pietro Filippi</p>
+                                <h4>Services</h4>
+                                <p>Consulting, Webdesign, Print</p>
+                                <h4>Technologies</h4>
+                                <p>PHP, HipHop, Break-dance</p>
+                                <h4>Dates</h4>
+                                <p>10/2013 - 06/2014</p>
+                            </div>
+                        </div> -->
+
+                    </section>
+
+                    <section>
+
+                        <div class="col-sm-10">
+
+                            <div class="heading">
+                                <h3>{{article.title}} description</h3>
+                            </div>
+
+                            <p>{{article.content}}</p>
+                        </div>
+                    </section>
+
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+
+        </div>
+        <!-- /#content -->
+
+
+                    {% block js %}
+
+                    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/owl.carousel.min.js"></script>
+                    {% endblock%}
+            <!-- owl carousel -->
+{% endblock %}
