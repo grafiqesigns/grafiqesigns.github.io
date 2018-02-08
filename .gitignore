@@ -1,2 +1,5 @@
+env/
+output/
+srv.pid
+pelican.pid
 *.pyc
-generate/env/

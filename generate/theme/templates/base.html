@@ -58,16 +58,18 @@ _________________________________________________________ -->
                                 <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/gra.png" alt="">
                             </div>
                         </div> -->
-                        <div class="col-xs-3 contact">
+                        <div class="col-sm-3 contact">
                             <div class="logo">
 
                                 <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/gra.png" class="img-responsive" height="10%" alt="">
                             </div>
 
                         </div>
-                        <div class="col-xs-6 pull-right col-bl">
+                        <div class="col-sm-9">
+
+                        <div class="col-sm-7 pull-right col-bl " >
                                 <div class="row">
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-6" id="callus">
                                         <div class="row">
                                             <div class="col-xs-3">
                                                 <span class="fa fa-phone fa-fw"></span>
@@ -78,7 +80,7 @@ _________________________________________________________ -->
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-sm-6"  id="email1">
                                         <div class="row">
                                             <div class="col-xs-3">
                                                 <span class="fa fa-at fa-fw"></span>
@@ -90,13 +92,8 @@ _________________________________________________________ -->
                                         </div>
                                     </div>
                                 </div>
-
-                            <!-- <div class="login">
-                                <a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-sign-in"></i> <span class="hidden-xs text-uppercase">Sign in</span></a>
-                                <a href="customer-register.html"><i class="fa fa-user"></i> <span class="hidden-xs text-uppercase">Sign up</span></a>
-                            </div> -->
-
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -147,7 +144,7 @@ _________________________________________________________ -->
                                                                 {% if loop.index is divisibleby 11 %}<div class="col-sm-6">{% endif%}
 
                                                                 <ul>
-                                                                    <li><a href="/{{article.category}}/{{article.slug}}.html">
+                                                                    <li ><a href="/{{article.category}}/{{article.slug}}.html">
                                                                         {{article.title}}</a></li>
                                                                     </ul>
 
