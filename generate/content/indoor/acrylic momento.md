@@ -1,10 +1,10 @@
 title: Acrylic Memento
 slug: acrylic-memento
-category: bands
+category: indoor
 date: 2017-06-09
 modified: 2017-06-09
-tags: indoor/3D CANVAS PRINT.jpg
-image: indoor/3D CANVAS PRINT.jpg
+tags: indoor/acrylic memenot.jpg,indoor/acrylic memento 2.jpg
+image: indoor/acrylic memenot.jpg
 description:[Gunship](https://www.gunshipmusic.com/) is a *retro synthwave* artist out of the UK.
 
 

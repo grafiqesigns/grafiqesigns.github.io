@@ -1,10 +1,10 @@
 title: Disabled Signs
 slug: disabled-signs
-category: bands
+category: indoor
 date: 2017-06-09
 modified: 2017-06-09
-image: indoor/promo table.jpg
-description:[Gunship](https://www.gunshipmusic.com/) is a *retro synthwave* artist out of the UK.
+image: indoor/Dis-scaled.jpg
+tags: indoor/Dis-scaled.jpg
 
 Providing a clear and visible marking in car parks ,restrooms, office area and any other places offers convenient access for physically challenged.
 The wheelchair symbol is "International" and therefore not accompanied by Braille in any particular language .

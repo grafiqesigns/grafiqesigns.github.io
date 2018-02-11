@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block content %}
+        <!-- *** LOGIN MODAL END *** -->
+
+        <div id="heading-breadcrumbs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h1>Portfolio </h1>
+                    </div>
+                    <div class="col-md-5">
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">Home</a>
+                            </li>
+                            <li>Portfolio </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="container">
+
+                <section>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading">
+                                <h3>Indoor and Outdoor Services</h3>
+                            </div>
+
+                            <p class="lead"></p>
+                        </div>
+                    </div>
+
+
+                        {% for article in articles|sort(attribute='category')%}
+                        {% if loop.first %}<div class="row portfolio"> {% endif %}
+                        {% if loop.index is divisibleby 4 %} <div class="row portfolio"> {% endif %}
+                        <div class="col-sm-3">
+                            <div class="box-image">
+                                <div class="image">
+                                    <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{article.image}}"  alt="{{article.title}}" class="img-responsive">
+                                </div>
+                                <div class="bg"></div>
+                                <div class="name">
+                                    <h3><a href="portfolio-detail.html">{{article.title}}</a></h3>
+                                </div>
+                                <div class="text">
+                                    <p class="hidden-sm hidden-lg hidden-md">{{article.description}}</p>
+                                    <p class="buttons"><a href="/{{article.category}}/{{article.slug}}.html" class="btn btn-template-transparent-primary">View</a></p>
+                                </div>
+                            </div>
+                            <!-- /.box-image -->
+                        </div>
+
+                        {% if loop.index is divisibleby 4 %} </div> {% endif %}
+                        {% if loop.last %}</div> {% endif %}
+
+                        {% endfor %}
+
+                </section>
+
+            </div>
+            <!-- /.container -->
+
+
+            <!-- /.bar -->
+
+            </div>
+        <!-- /#content -->
+{% endblock %}

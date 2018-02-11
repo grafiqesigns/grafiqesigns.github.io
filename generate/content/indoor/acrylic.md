@@ -1,10 +1,10 @@
 title: Acrylic
 slug: acrylic
-category: bands
+category: indoor
 date: 2017-06-09
 modified: 2017-06-09
-tags: indoor/3D CANVAS PRINT.jpg
-image: indoor/3D CANVAS PRINT.jpg
+tags: indoor/acrylic-scaled.jpg
+image: indoor/acrylic-scaled.jpg
 
 You can spice up your plain office or bedroom
 wall with a customized designs.

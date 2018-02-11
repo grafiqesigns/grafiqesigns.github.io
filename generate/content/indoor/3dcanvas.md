@@ -1,6 +1,6 @@
 title: 3d canvas
 slug: 3d-canvas
-category: bands
+category: indoor
 date: 2017-06-09
 modified: 2017-06-09
 tags: indoor/3D CANVAS PRINT.jpg

@@ -27,12 +27,12 @@ function map() {
 	styles: styles
     });
 
-    var image = 'img/marker.png';
+    var image = '../img/marker.png';
 
     map.addMarker({
         lat: 17.485907,
     	lng: 78.411132,
-	icon: image/* ,
+	icon: image,/* ,
 	 title: '',
 	 infoWindow: {
 	 content: '<p>HTML Content</p>'

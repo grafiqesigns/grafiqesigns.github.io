@@ -1,10 +1,10 @@
 title: promotional tables
 slug: Promotional-tables
-category: bands
+category: indoor
 date: 2017-06-09
 modified: 2017-06-09
-image: indoor/promo table.jpg
-description:[Gunship](https://www.gunshipmusic.com/) is a *retro synthwave* artist out of the UK.
+image: indoor/writing boards-scaled.jpg
+tags: indoor/writing boards-scaled.jpg
 
 Non-magnetic writing Board
 

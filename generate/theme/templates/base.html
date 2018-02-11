@@ -33,7 +33,7 @@
 <![endif]-->
 
     <!-- Favicon and apple touch icons-->
-    <link rel="shortcut icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/favicon.ico" />
     <link rel="apple-touch-icon" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/apple-touch-icon-72x72.png" />
@@ -42,7 +42,7 @@
     <link rel="apple-touch-icon" sizes="120x120" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/apple-touch-icon-120x120.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/apple-touch-icon-144x144.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/apple-touch-icon-152x152.png" />
-    {% block css %}{% endblock%}
+    {% block css %} {% endblock%}
 </head>
 
 <body>
@@ -108,10 +108,10 @@ _________________________________________________________ -->
                 <div class="navbar navbar-default yamm" role="navigation" id="navbar">
                     <div class="container">
                         <div class="navbar-header">
-                            <!-- <a class="navbar-brand home" href="index.html">
-                                <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/logo.png" alt="Universal logo" class="hidden-xs hidden-sm">
-                                <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/logo-small.png" alt="Universal logo" class="visible-xs visible-sm"><span class="sr-only">Universal - go to homepage</span>
-                            </a> -->
+                            <a class="navbar-brand home" href="index.html">
+                                <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/grafiqe.png" width="20%" alt="Universal logo" class="hidden-md hidden-lg">
+
+                            </a>
                             <div class="navbar-buttons">
                                 <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
                                     <span class="sr-only">Toggle navigation</span>
@@ -126,7 +126,7 @@ _________________________________________________________ -->
                             <ul class="nav navbar-nav navbar-left" style="margin-left:-15px">
 
                                 <li class="dropdown"><a href="/">Home</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><a href="{{SITEURL}}/pages/about-us.html">About</a></li>
                                 <!-- ========== FULL WIDTH MEGAMENU ================== -->
                                 <li class="dropdown use-yamm yamm-fw">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Services <b class="caret"></b></a>
@@ -139,58 +139,49 @@ _________________________________________________________ -->
 
                                                     <div class="row">
                                                         <h5>Indoor Signage</h5>
+
                                                                 {% for article in articles %}
+                                                                {% set ns = 'indoor' %}
+
+                                                                {% if ns|string() == article.category|string() %}
                                                                 {% if loop.first %}<div class="col-sm-6">{% endif%}
-                                                                {% if loop.index is divisibleby 11 %}<div class="col-sm-6">{% endif%}
+                                                                {% if loop.index == 16 %}<div class="col-sm-6">{% endif%}
 
                                                                 <ul>
                                                                     <li ><a href="/{{article.category}}/{{article.slug}}.html">
-                                                                        {{article.title}}</a></li>
+                                                                        {{article.title}} </a></li>
                                                                     </ul>
 
 
-                                                                    {% if loop.index == 10 %}</div>{%endif%}
+                                                                    {% if loop.index == 15 %}</div>{%endif%}
 
                                                                 {% if loop.last %}</div>{% endif%}
-                                                        {% endfor%}
+                                                                {% endif%}
+                                                                {% endfor%}
                                                     </div>
                                                     </div>
 
                                                     <div class="col-sm-6">
                                                         <div class="row">
                                                             <h5>Outdoor</h5>
-                                                            <div class="col-sm-6">
-                                                                <ul>
-                                                                    <li><a href="indoor3.html">3D Letters</a></li>
-                                                                    <li><a href="indoor3.html">A - Frame</a></li>
-                                                                    <li><a href="indoor3.html">Asphalt Signs</a></li>
-                                                                    <li><a href="indoor3.html">Building Signs</a></li>
-                                                                    <li><a href="indoor3.html">Channel Letters</a></li>
-                                                                    <li><a href="indoor3.html">Cut out letters</a></li>
-                                                                    <li><a href="indoor3.html">Flags</a></li>
-                                                                    <li><a href="indoor3.html">Illuminated Letters</a></li>
-                                                                    <li><a href="indoor3.html">L.E.D. Signs</a></li>
-                                                                    <li><a href="indoor3.html">Light boxes</a></li>
-                                                                    <li><a href="indoor3.html">Neon signs</a></li>
-                                                                </ul>
-                                                            </div>
-                                                                <div class="col-sm-6">
+                                                            {% for article in articles %}
+                                                            {% set out = 'outdoor' %}
 
-                                                                <ul>
-                                                                    <li><a href="indoor3.html">Outdoor Banner</a></li>
-                                                                    <li><a href="indoor3.html">Parking Signs</a></li>
-                                                                    <li><a href="indoor3.html">Posters</a></li>
-                                                                    <li><a href="indoor3.html">Real Estate Signs</a></li>
-                                                                    <li><a href="indoor3.html">Safety Signs</a></li>
-                                                                    <li><a href="indoor3.html">Stickers</a></li>
-                                                                    <li><a href="indoor3.html">Street Barriers</a></li>
-                                                                    <li><a href="indoor3.html">Teardrop Flags</a></li>
-                                                                    <li><a href="indoor3.html">Traffic Signs</a></li>
-                                                                    <li><a href="indoor3.html">Vinyl Banners</a></li>
-                                                                    <li><a href="indoor3.html">Window Frosting</a></li>
+                                                            {% if out|string() == article.category|string() %}
+                                                            {% if loop.index == 2 %}<div class="col-sm-6">{% endif%}
+                                                            {% if loop.index == 24 %}<div class="col-sm-6">{% endif%}
 
+                                                            <ul>
+                                                                <li ><a href="/{{article.category}}/{{article.slug}}.html">
+                                                                    {{article.title}}</a></li>
                                                                 </ul>
-                                                            </div>
+
+
+                                                                {% if loop.index == 23 %}</div>{%endif%}
+
+                                                            {% if loop.index ==  30 %}</div>{% endif%}
+                                                            {% endif%}
+                                                            {% endfor%}
                                                         </div>
 
 
@@ -203,9 +194,9 @@ _________________________________________________________ -->
                                 </li>
                                 <!-- ========== FULL WIDTH MEGAMENU END ================== -->
 
-                                <li><a href="/index.html">Portfolio</a> </li>
+                                <li><a href="/portfolio.html">Portfolio</a> </li>
 
-                                <li><a href="/index.html#get-it">Team</a></li>
+                                <li><a href="/index.html#team">Team</a></li>
                                 <li><a href="/pages/faq.html">Faq</a></li>
                                 <li> <a href="/pages/contact.html">Contact </a></li>
                             </ul>
@@ -463,10 +454,10 @@ _________________________________________________________ -->
 
             <!-- gmaps -->
 
-            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+            <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
             <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/gmaps.js"></script>
-            <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/gmaps.init.js"></script>
+            <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/gmaps.init.js"></script> -->
 
             <!-- gmaps end -->
 

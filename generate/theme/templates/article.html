@@ -49,7 +49,7 @@
 
                                     {% for tag in article.tags %}
                                         <div class="item">
-                                                <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{tag}}"  class="img-responsive" alt="">
+                                                <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/{{tag}}"  class="img-responsive" alt="{{article.title}}">
                                             </div>
                                     {% endfor %}
                                 </div>
