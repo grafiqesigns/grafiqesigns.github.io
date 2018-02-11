@@ -3,7 +3,7 @@ slug: donation-box
 category: indoor
 date: 2017-06-09
 modified: 2017-06-09
-tags:indoor/Suggestion-Box-scaled.jpg,indoor/acrylic-donation-box-.jpg
+tags:indoor/Suggestion-Box.jpg,indoor/acrylic-donation-box-.jpg
 image: indoor/acrylic-donation-box-scaled.jpg
 description:[Gunship](https://www.gunshipmusic.com/) is a *retro synthwave* artist out of the UK.
 
