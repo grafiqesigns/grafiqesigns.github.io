@@ -1,5 +1,5 @@
-title: promotional tables
-slug: Promotional-tables
+title: Writing Boards
+slug: writing-boards
 category: indoor
 date: 2017-06-09
 modified: 2017-06-09
