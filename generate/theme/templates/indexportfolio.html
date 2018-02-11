@@ -10,7 +10,7 @@
                     </div>
                     <div class="col-md-5">
                         <ul class="breadcrumb">
-                            <li><a href="index.html">Home</a>
+                            <li><a href="{{SITEURL}}/index.html">Home</a>
                             </li>
                             <li>Portfolio </li>
                         </ul>
@@ -46,11 +46,11 @@
                                 </div>
                                 <div class="bg"></div>
                                 <div class="name">
-                                    <h3><a href="portfolio-detail.html">{{article.title}}</a></h3>
+                                    <h3><a href="{SITEURL}}/{{article.category}}/{{article.slug}}.html">{{article.title}}</a></h3>
                                 </div>
                                 <div class="text">
                                     <p class="hidden-sm hidden-lg hidden-md">{{article.description}}</p>
-                                    <p class="buttons"><a href="/{{article.category}}/{{article.slug}}.html" class="btn btn-template-transparent-primary">View</a></p>
+                                    <p class="buttons"><a href="{{SITEURL}}/{{article.category}}/{{article.slug}}.html" class="btn btn-template-transparent-primary">View</a></p>
                                 </div>
                             </div>
                             <!-- /.box-image -->
