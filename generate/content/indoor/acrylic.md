@@ -1,10 +1,10 @@
-title: Acrylic
+title: Acrylic Laser Cutting
 slug: acrylic
 category: indoor
 date: 2017-06-09
 modified: 2017-06-09
-tags: indoor/acrylic-scaled.jpg
-image: indoor/acrylic-scaled.jpg
+tags: indoor/acrylic-scaled.jpg,indoor/Acrylic Wall designs 1.jpg,indoor/Acrylic Wall designs 2.jpg
+image: indoor/Acrylic Wall designs 1.jpg
 
 You can spice up your plain office or bedroom
 wall with a customized designs.

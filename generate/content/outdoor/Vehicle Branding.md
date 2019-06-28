@@ -3,8 +3,8 @@ slug: vehicle-branding
 category: outdoor
 date: 2017-06-09
 modified: 2017-06-09
-tags: indoor/3D CANVAS PRINT.jpg
-image: indoor/3D CANVAS PRINT.jpg
+tags: outdoor/bimp outdoor/vb1.jpg,outdoor/bimp outdoor/vb2.jpg,outdoor/bimp outdoor/vb3.jpg
+image:outdoor/bimp outdoor/Vehicle branding3.jpg
 
 Businesses that have opted to
 wrap their vehicle or fleet of

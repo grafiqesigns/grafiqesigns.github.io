@@ -3,8 +3,8 @@ slug: aluminium-roll-up-signs
 category: indoor
 date: 2017-06-09
 modified: 2017-06-09
-image: indoor/roll-up-standee-2-scaled.jpg
-tags: indoor/roll-up-standees-3-scaled.jpg,indoor/roll-up-standee-2-scaled.jpg
+image: indoor/rus1.jpg
+tags: indoor/rus1.jpg,indoor/rus2.png,indoor/rus3.jpg,indoor/roll-up-standee-2-scaled.jpg,indoor/A4 Roll-up standee.jpg
 
 Features
 Portable
