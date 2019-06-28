@@ -3,9 +3,8 @@ slug: 3d-canvas
 category: indoor
 date: 2017-06-09
 modified: 2017-06-09
-tags: indoor/3D CANVAS PRINT.jpg
+tags: indoor/3D CANVAS PRINT.jpg,indoor/canvas print.jpg,indoor/canvas print 2.jpg,
 image: indoor/3D CANVAS PRINT.jpg
-description:[Gunship](https://www.gunshipmusic.com/) is a *retro synthwave* artist out of the UK.
 
 Got a favourite photo you’d
 like printed onto canvas?

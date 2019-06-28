@@ -1,12 +1,12 @@
-title:Outdoor Banners
-slug: outdoor-banners
+title:Flex Printing
+slug: flex-printing
 category: outdoor
 date: 2017-06-09
 modified: 2017-06-09
-tags: outdoor/wholefoodscamelbackcomingsoon-scaled.jpg,outdoor/CXTLFAuVAAAKkXr-scaled.jpg
+tags: outdoor/bimp outdoor/fp1.jpg,outdoor/bimp outdoor/fp2.jpg,outdoor/bimp outdoor/fp3.jpg,outdoor/bimp outdoor/fp4.jpg
 image: outdoor/wholefoodscamelbackcomingsoon-scaled.jpg
 
-Outdoor banners are ideal for
+Flex Printing are ideal for
 promotional and short-term
 advertising. We have a full range
 of banner materials suitable for

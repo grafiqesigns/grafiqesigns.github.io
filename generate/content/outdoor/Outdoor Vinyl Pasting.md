@@ -3,8 +3,8 @@ slug: outdoor-vinyl-pasting
 category: outdoor
 date: 2017-06-09
 modified: 2017-06-09
-tags: outdoor/58722f7fb5444309b091c16a-scaled.jpg,outdoor/eco-solvent-vinyl-printing-service-250x250-scaled.jpg
-image: outdoor/58722f7fb5444309b091c16a-scaled.jpg
+tags: outdoor/58722f7fb5444309b091c16a-scaled.jpg,outdoor/eco-solvent-vinyl-printing-service-250x250-scaled.jpg,outdoor/bimp outdoor/ov1.jpg,outdoor/bimp outdoor/ov2.jpg
+image: outdoor/bimp outdoor/ov2.jpg
 
 Different types of vinyl with
 different designs can give your
